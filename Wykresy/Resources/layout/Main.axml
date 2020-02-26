@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup1"
+        android:layout_marginBottom="25dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="bar"
+            android:id="@+id/Bar" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="point"
+            android:id="@+id/Point" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="line"
+            android:id="@+id/Line" />
+        <RadioButton
+            android:text="radial gauge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RadialGauge" />
+        <RadioButton
+            android:text="donut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Donut" />
+        <RadioButton
+            android:text="radar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Radar" />
+    </RadioGroup>
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup2">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="ceny złota"
+            android:id="@+id/CenyZlota" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kurs funta szterlinga"
+            android:id="@+id/KursGbp" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kurs dolara amerykańskiego"
+            android:id="@+id/KursUsd" />
+        <RadioButton
+            android:text="kurs euro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/KursEur" />
+        <RadioButton
+            android:text="kurs franka szwajcarskiego"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/KursChf" />
+        <RadioButton
+            android:text="kurs jena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/KursJpy" />
+    </RadioGroup>
+    <Button
+        android:text="Pokaż"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pokaz" />
+</LinearLayout>
